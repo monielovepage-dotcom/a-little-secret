@@ -2,11 +2,11 @@
    CONFIG — แก้ข้อความ รูป และตัวละครได้ที่ไฟล์นี้ไฟล์เดียว
    ========================================================= */
 window.CONFIG = {
-  /* รูปผู้รับ (ใส่ได้หลายรูป): วางไฟล์ไว้ที่ assets/photo/ (JPG / PNG / WebP)
+  /* รูปผู้รับ (ใส่ได้หลายรูป): วางไฟล์ไว้ที่  (JPG / PNG / WebP)
      aspect = สัดส่วนกรอบรูป | position = จุดโฟกัสของการครอป (x y) | scale = ซูม | rotate = เอียงกรอบ (องศา) */
   recipientPhotos: [
-    { src: "assets/photo/recipient-alt.jpg", aspect: "3 / 4", position: "50% 30%", scale: 1, rotate: -3 },
-    { src: "assets/photo/recipient.jpg",     aspect: "1 / 1", position: "40% 40%", scale: 1, rotate: 3 }
+    { src: "recipient-alt.jpg", aspect: "3 / 4", position: "50% 30%", scale: 1, rotate: -3 },
+    { src: "recipient.jpg",     aspect: "1 / 1", position: "40% 40%", scale: 1, rotate: 3 }
   ],
 
   /* พื้นที่ตัวละคร (ใส่รูป Stitch ของคุณเอง PNG/WebP/GIF พื้นหลังโปร่งใส)
@@ -15,10 +15,10 @@ window.CONFIG = {
      offsetX/offsetY = ขยับเพิ่มเล็กน้อย เช่น "-10px" | rotate = หมุน (องศา) | scale = ซูม
      animation: "" | "float" | "twinkle" */
   characters: {
-    p1:   { src: "assets/characters/shy.gif",   width: "190px", height: "auto", align: "center", offsetX: "0px", offsetY: "0px", rotate: 0, scale: 1, animation: "float" },
-    p2:   { src: "assets/characters/heart.gif", width: "175px", height: "auto", align: "center", offsetX: "0px", offsetY: "0px", rotate: 0, scale: 1, animation: "float" },
-    p3:   { src: "assets/characters/roses.gif", width: "130px", height: "auto", align: "center", offsetX: "0px", offsetY: "0px", rotate: 0, scale: 1, animation: "float" },
-    card: { src: "assets/characters/hug.gif",   width: "120px", height: "auto", align: "center", offsetX: "0px", offsetY: "0px", rotate: 0, scale: 1, animation: "float" }
+    p1:   { src: "shy.gif",   width: "190px", height: "auto", align: "center", offsetX: "0px", offsetY: "0px", rotate: 0, scale: 1, animation: "float" },
+    p2:   { src: "heart.gif", width: "175px", height: "auto", align: "center", offsetX: "0px", offsetY: "0px", rotate: 0, scale: 1, animation: "float" },
+    p3:   { src: "roses.gif", width: "130px", height: "auto", align: "center", offsetX: "0px", offsetY: "0px", rotate: 0, scale: 1, animation: "float" },
+    card: { src: "hug.gif",   width: "120px", height: "auto", align: "center", offsetX: "0px", offsetY: "0px", rotate: 0, scale: 1, animation: "float" }
   },
 
   colors: { blue: "#62C5E8", sky: "#BDEBFA", lav: "#C9B7F5", pink: "#FFD6E7", cream: "#FFF9F0", navy: "#253858" },
